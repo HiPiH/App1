@@ -1,0 +1,8 @@
+<div class="b-reports-menu-page">
+    <div class="b-reports-menu-btn-container">
+        <div class="b-reports-menu-btnStdReport"></div>
+        <div class="b-reports-menu-btnClientReport"></div>
+        <div class="b-reports-menu-btnSpaReport"></div>
+        <div class="b-reports-menu-btnRpReport"></div>
+    </div>
+</div>

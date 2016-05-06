@@ -1,0 +1,1 @@
+<div class="b-button b-button__enabled b-button__<%= @.style %>"><%- @.text %></div>

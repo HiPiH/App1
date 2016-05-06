@@ -1,0 +1,5 @@
+<div class="b-address-view">
+    <div class="b-address-view-id"></div>
+    <div class="b-address-view-separator"></div>
+    <div class="b-address-view-name"></div>
+</div>

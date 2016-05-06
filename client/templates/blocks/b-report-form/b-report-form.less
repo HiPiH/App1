@@ -1,0 +1,41 @@
+.b-report-std-form {
+    margin-top: 86px;
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    input {
+        font-size: inherit;
+    }
+    .form-error-massage {
+        padding: 10px;
+        color: @color-red;
+        text-align: center;
+    }
+}
+
+.btn {
+    color: #FFFFFF !important;
+    border-radius: 0;
+    background-color: rgb(171, 0, 0);
+}
+
+.b-report-std-form-btn-send-data {
+    margin: 41px 40px 22px 40px;
+}
+
+.form-container-mixin{
+    max-width: @screen-sm-max;
+    margin: auto;
+}
+
+@media (min-width: @screen-sm-min) {
+    .form-container{
+        .form-container-mixin();
+    }
+}
+@media (orientation: landscape)  {
+    .form-container{
+        .form-container-mixin();
+    }
+}

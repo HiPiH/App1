@@ -1,0 +1,95 @@
+
+.b-button-main-menu-wrapper {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: 1;
+  &:active{
+    background-color: #d2294c;
+  }
+}
+
+/*.b-button-main-menu-wrapper:active {
+    background-color: #d2294c;
+    -webkit-touch-callout: none;
+}*/
+
+.b-button-main-menu-icon-wrapper {
+    cursor: pointer;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.button-icon {
+    position: relative;
+    height: 71px;
+    width: 100px;
+    top: 50%;
+    transform: translate(0,-50%);
+    margin: auto;
+    -webkit-background-size: 35px auto;
+    background-size: 35px auto;
+    background-repeat: no-repeat;
+    background-position: center 0;
+
+    &_report {
+        background-image: url("../img/main-menu-icons/x2/report-icon.png");
+    }
+    &_edit {
+        background-image: url("../img/main-menu-icons/x2/edit-icon.png");
+    }
+    &_plan {
+        background-image: url("../img/main-menu-icons/x2/plan-icon.png");
+    }
+    &_result {
+        background-image: url("../img/main-menu-icons/x2/report-icon.png");
+    }
+    &_logout {
+        background-image: url("../img/main-menu-icons/x2/logout-icon.png");
+    }
+    &_statistics {
+        background-image: url("../img/main-menu-icons/x2/stat-icon.png");
+    }
+}
+
+.button-text {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: #b7b7b7;
+    font-size: 15px;
+}
+
+.b-button-main-menu___disable {
+    opacity: 0.5;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .b-menu-page-btnEdit,
+  .b-menu-page-btnPlane,
+  .b-menu-page-btnResult,
+  .b-menu-page-btnExit,
+  .b-menu-page-btnStatistic{
+    position: relative;
+  }
+  .b-button-main-menu-wrapper{
+    z-index: 1;
+    &:active{
+      background-color: rgba(210, 41, 76, 0.45);
+    }
+  }
+  .b-button-main-menu-icon-wrapper{
+    z-index: -1;
+  }
+  .b-button-main-menu___disable {
+    opacity: 0.5;
+    .button-icon{
+      opacity: 0.5;
+    }
+  }
+}

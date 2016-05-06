@@ -1,0 +1,63 @@
+.b-checkin-page {
+    padding-top: 52px;
+}
+
+.b-checkin-page-type-label {
+    text-align: center;
+    margin: 36px 0 0;
+    font-size: 21px;
+    letter-spacing: .5px;
+    color: #BE0F34;
+}
+
+.b-checkin-page-address {
+    padding: 19px 40px 46px 40px;
+}
+
+.b-checkin-page-comment {
+    padding: 0px 38px;
+    height: 86px;
+    margin: -26px 0 8px;
+    .textarea-standart{
+        color: @fontColorLightGray;
+        border-color: @borderColorBlur;
+        background-color: #fff;
+        &:focus{
+            background-color: inherit;
+            box-shadow: none;
+            border-color: @borderColorFocus;
+        }
+    }
+}
+
+.b-checkin-page-image {
+    margin: 13px 0px 0px 40px;
+}
+
+.b-checkin-page-btn-add-photo {
+    margin: 22px 40px 0px 40px;
+}
+
+.b-checkin-page-send {
+    margin: 22px 40px 0px;
+}
+
+.b-checkin-page-form{
+    margin: auto;
+}
+
+.b-checkin-page-form-mixin{
+    max-width: @screen-sm-max;
+    margin: auto;
+}
+
+@media (min-width: @screen-sm-min) {
+    .b-checkin-page-form{
+        .b-checkin-page-form-mixin();
+    }
+}
+@media (orientation: landscape)  {
+    .b-checkin-page-form{
+        .b-checkin-page-form-mixin();
+    }
+}

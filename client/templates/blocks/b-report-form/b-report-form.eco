@@ -1,0 +1,11 @@
+<div class="form-container">
+
+    <form class="b-report-std-form input-group">
+        <div class="form-error-massage" style="display: none">
+            Ошибка ввода данных
+        </div>
+    </form>
+    <div class="b-report-std-form-btn-send-data">
+
+    </div>
+</div>

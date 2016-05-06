@@ -1,0 +1,19 @@
+.b-consultant-stat-page {
+    margin: 54px auto;
+    padding-top: 30px;
+}
+
+.b-consultant-stat-page-mixin{
+    max-width: @screen-sm-max;
+}
+
+@media (min-width: @screen-sm-min) {
+    .b-consultant-stat-page{
+        .b-consultant-stat-page-mixin();
+    }
+}
+@media (orientation: landscape)  {
+    .b-consultant-stat-page{
+        .b-consultant-stat-page-mixin();
+    }
+}

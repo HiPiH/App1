@@ -1,0 +1,5 @@
+<div class="b-search">
+    <input class="b-search-input b-search-input__inactive" type="number" placeholder=''>
+    <span class="b-search-clear fa fa-times"></span>
+    <div class="b-search-cancel"></div>
+</div>

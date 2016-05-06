@@ -1,0 +1,42 @@
+.b-sending-request{
+    &-overlay{
+        position: fixed;
+        background-color: rgba(47, 47, 47, 0.54);
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        z-index: 1000;
+    }
+
+    &-window{
+        padding: 27px 50px;
+        background-color: #dfdfdf;
+        border-radius: 20px;
+        width: 75%;
+        max-width: 230px;
+        min-width: 200px;
+        margin:0 auto;
+        &-wrapper{
+            position: fixed;
+            top:50%;
+            transform: translate(0, -50%);
+            width: 100%;
+        }
+    }
+
+    &-img{
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: auto;
+    }
+    &-text{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: @fontColorLightRed;
+    }
+}

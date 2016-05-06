@@ -1,0 +1,55 @@
+<div class="b-plan-page">
+    <div class="b-plan-page-inner">
+        <div class="b-plan-container">
+            <div class="b-calendar">
+                <div class="cal1">
+                    <div class="clndr">
+                        <table class="clndr-table" border="0" cellspacing="0" cellpadding="0">
+                            <thead>
+                            <tr class="header-days">
+                                <td class="header-day"></td>
+                                <td class="header-day"></td>
+                                <td class="header-day"></td>
+                                <td class="header-day"></td>
+                                <td class="header-day"></td>
+                                <td class="header-day"></td>
+                                <td class="header-day"></td>
+                            </tr>
+                            </thead>
+                            <tbody class="b-plan-page-table">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="b-plan-day">
+            <div class="b-plan-day-date b-plan-day-row b-plan-day-row-title group">
+            </div>
+            <div class="b-plan-day-row group">
+                <div class="b-plan-day-shop-caption b-plan-day-col1">
+                </div>
+                <div class="b-plan-day-shop b-plan-day-col2">
+                </div>
+            </div>
+            <div class="b-plan-day-row group">
+                <div class="b-plan-day-start-caption b-plan-day-col1">
+                </div>
+                <div class="b-plan-day-start b-plan-day-col2">
+                </div>
+            </div>
+            <div class="b-plan-day-row group">
+                <div class="b-plan-day-stop-caption b-plan-day-col1">
+                </div>
+                <div class="b-plan-day-stop b-plan-day-col2">
+                </div>
+            </div>
+            <div class="b-plan-day-row group">
+                <div class="b-plan-day-plan-caption b-plan-day-col1">
+                </div>
+                <div class="b-plan-day-plan b-plan-day-col2">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

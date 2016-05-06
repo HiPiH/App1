@@ -1,0 +1,13 @@
+<div class="b-auth">
+    <div class="b-registration-logo-name">
+        <div class='b-header-icon'></div>
+    </div>
+    <div class="b-auth-form-wrapper">
+            <div class="b-auth-form">
+                <div class="b-auth-item b-auth-id"></div>
+                <div class="b-auth-error"></div>
+                <div class="b-auth-item b-auth-password"></div>
+                <div class="b-auth-item b-auth-sign-in"></div>
+            </div>
+    </div>
+</div>

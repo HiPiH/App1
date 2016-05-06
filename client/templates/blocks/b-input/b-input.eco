@@ -1,0 +1,3 @@
+<input id="<%= @.id %>" class="b-input input-<%= @.style %> input-<%= @.size %>"
+       type="<%= @.type %>" placeholder="<%= @.placeholder %>"
+       value="<%= @.value %>" maxlength="<%= @.maxlength %>"/>

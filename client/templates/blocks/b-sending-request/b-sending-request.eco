@@ -1,0 +1,11 @@
+<div class="b-sending-request-overlay">
+    <div class="b-sending-request-window-wrapper">
+        <div class="b-sending-request-window">
+            <img class="b-sending-request-img" src="img/spinner.gif" alt="spinner"/>
+
+            <p class="b-sending-request-text">
+                Загрузка
+            </p>
+        </div>
+    </div>
+</div>

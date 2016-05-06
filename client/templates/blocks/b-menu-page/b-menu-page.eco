@@ -1,0 +1,18 @@
+<div class="b-menu-page">
+    <div class="menu-container">
+        <table class="menu">
+            <tr>
+                <td class="b-menu-page-btnOrder"></td>
+                <td class="b-menu-page-btnEdit"></td>
+            </tr>
+            <tr>
+                <td class="b-menu-page-btnPlane"></td>
+                <td class="b-menu-page-btnResult"></td>
+            </tr>
+            <tr>
+                <td class="b-menu-page-btnExit"></td>
+                <td class="b-menu-page-btnStatistic"></td>
+            </tr>
+        </table>
+    </div>
+</div>

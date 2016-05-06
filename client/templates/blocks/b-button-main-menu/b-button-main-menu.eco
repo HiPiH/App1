@@ -1,0 +1,7 @@
+<div class="b-button-main-menu-wrapper">
+    <div class="b-button-main-menu-icon-wrapper">
+        <div class="button-icon button-icon_<%- @.style %>">
+            <span class="button-text"><%- @.text %></span>
+        </div>
+    </div>
+</div>

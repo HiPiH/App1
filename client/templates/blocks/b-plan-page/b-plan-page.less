@@ -1,0 +1,110 @@
+.b-plan-page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.b-plan-container{
+    margin-top: 85px;
+    width: 100%;
+    .cal1{
+        max-width: 100%;
+        min-width: 320px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: inherit;
+        .clndr .clndr-table{
+            width: 100%;
+            .header-days{
+                text-align: center;
+                background-color: transparent;
+                .header-day{
+                    color: @fontColorLightGray;
+                    border: none;
+                    border-bottom: 1px solid @fontColorLightGray;
+                }
+            }
+            tbody tr{
+                height: 40px;
+                &:last-child .day{
+                    border-bottom: 0;
+                }
+                td{
+                    border: none;
+                }
+                .day:last-child{
+                    border: none;
+                }
+                .day .day-contents{
+                    padding: 0;
+                    line-height: 40px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}
+
+.b-plan-day{
+    width: 100%;
+    &-row{
+        width: 100%;
+        display: table;
+        padding: 10px 0;
+        border-bottom: 1px solid @borderColorLightGray;
+        &:first-child{
+            &:active{
+                background-color: @tapActive;
+            }
+
+        }
+        &-title{
+            background-color:@bgColorGray;
+            color: @fontColorLightRed;
+            padding-left: 4.68%;
+            border-top: 1px solid @borderColorLightGray;
+            border-bottom: none;
+        }
+    }
+    &-col1{
+        display: table-cell;
+        width:50%;
+        box-sizing: border-box;
+        padding-left: 4.68%;
+    }
+    &-col2{
+        display: table-cell;
+        width:50%;
+        box-sizing: border-box;
+        padding-right: 4.68%;
+        text-align: right;
+    }
+}
+
+.current-day{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 45px;
+    width: 45px;
+    background-color: rgba(68, 68, 68, 0.57);
+}
+.cal1 .clndr .clndr-table tr .adjacent-month{
+    background-color: transparent;
+}
+
+.b-plan-page-inner-mixin{
+    max-width: @screen-sm-max;
+    margin: auto;
+}
+
+@media (min-width: @screen-sm-min) {
+    .b-plan-page-inner{
+        .b-plan-page-inner-mixin();
+    }
+}
+@media (orientation: landscape)  {
+    .b-plan-page-inner{
+        .b-plan-page-inner-mixin();
+    }
+}

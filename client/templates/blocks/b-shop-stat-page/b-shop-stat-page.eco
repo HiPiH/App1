@@ -1,0 +1,72 @@
+
+<div class="b-shop-stat">
+    
+    <div class="b-plan-day">
+        <div class="b-plan-day-row group shop">
+            <div class="b-plan-day-col1">
+                Магазин
+            </div>
+            <div class="b-plan-day-col2 b-plan-day-col2-arrow">
+                <% if @.data['shopId'] != 0: %>
+                    <%= @.data['shopId'] %>
+                <% else: %>
+                    <%= 'Все' %>
+                <% end %>
+            </div>
+        </div>
+        <div class="b-plan-day-row group">
+            <div class="b-plan-day-col1">
+                План
+            </div>
+            <div class="b-plan-day-col2">
+                <%= @.data['a:Plan']%>
+            </div>
+        </div>
+        <div class="b-plan-day-row group">
+            <div class="b-plan-day-col1">
+                Выручка
+            </div>
+            <div class="b-plan-day-col2">
+                <%= @.data['a:Cash']%>
+            </div>
+        </div>
+        <div class="b-plan-day-row group">
+            <div class="b-plan-day-sub-row group">
+                <div class="b-plan-day-col1">
+                    Выполнено
+                </div>
+                <div class="b-plan-day-col2">
+                    <%= @.data['done']%> %
+                </div>
+            </div>
+            <div class="b-plan-day-progress">
+                <span style="<%= @.data.progressWidth %>"></span>
+            </div>
+        </div>
+        <div class="b-plan-day-row group">
+            <div class="b-plan-day-col1">
+                Приоритет 1
+            </div>
+            <div class="b-plan-day-col2">
+                <%= @.data['a:CountPriority1']%>
+            </div>
+        </div>
+        <div class="b-plan-day-row group">
+            <div class="b-plan-day-col1">
+                Приоритет 2
+            </div>
+            <div class="b-plan-day-col2">
+                <%= @.data['a:CountPriority2']%>
+            </div>
+        </div>
+        <div class="b-plan-day-row group">
+            <div class="b-plan-day-col1">
+                Thierry Mugler
+            </div>
+            <div class="b-plan-day-col2">
+                <%= @.data['a:CountPriority3']%>
+            </div>
+        </div>
+    </div>
+    
+</div>

@@ -1,0 +1,33 @@
+.b-reports-menu-page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 95px 29px 100px 29px;
+}
+
+.b-reports-menu-btnStdReport,
+.b-reports-menu-btnClientReport,
+.b-reports-menu-btnSpaReport,
+.b-reports-menu-btnRpReport,
+{
+  margin:30px 10px;
+}
+.b-reports-menu-btn-container{
+    width: 80%;
+    margin: auto;
+}
+.b-reports-menu-btn-container-mixin{
+    max-width: @screen-sm-max;
+    margin: auto;
+}
+
+@media (min-width: @screen-sm-min) {
+    .b-reports-menu-btn-container{
+        .b-reports-menu-btn-container-mixin();
+    }
+}
+@media (orientation: landscape)  {
+    .b-reports-menu-btn-container{
+        .b-reports-menu-btn-container-mixin();
+    }
+}

@@ -1,0 +1,10 @@
+<div class="b-shop-list-item">
+    <div class="b-shop-list-item-id">
+        <% if @.id != 0: %>
+            <%= @.id %>
+        <% else: %>
+            <%= '' %>
+        <% end %>
+        </div>
+    <div class="b-shop-list-item-name"><%- @.name %></div>
+</div>

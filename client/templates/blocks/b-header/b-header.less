@@ -1,0 +1,63 @@
+.b-header {
+    background: #fff;
+}
+
+.b-header-main {
+    height: 52px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 3px solid @color-red;
+}
+
+.b-header-left {
+    width: 65px;
+    padding: 0 0 0 14px;
+    font-size: 26px;
+    color: @color-red;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(190, 15, 52, 0.6);
+    cursor: pointer;
+    &:before {
+        line-height: 49px;
+    }
+}
+
+.b-header-left:focus,
+.b-header-left:active {
+    color: rgba(190, 15, 52, 0.6);
+    -webkit-tap-highlight-color: rgba(190, 15, 52, 0.6);
+}
+
+.b-header-center {
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 75px;
+    right: 75px;
+    overflow: hidden;
+}
+
+.b-header-title {
+    height: 33px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 0 15px;
+    letter-spacing: .1px;
+    background-color: #ebebeb;
+    color: @color-red;
+}
+
+.b-header-icon {
+    background: url('../img/logoGroupe.png') no-repeat;
+    background-size: auto 30px;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    margin: 4px 0px 0px 2px;
+}
+
+.b-header-search {
+    clear: both;
+    width: 100%;
+}

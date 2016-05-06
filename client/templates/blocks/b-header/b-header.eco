@@ -1,0 +1,12 @@
+<div class="b-header">
+    <div class="b-header-main">
+        <div class="b-header-left fa fa-angle-left"></div>
+        <div class="b-header-search"></div>
+        <div class="b-header-center">
+            <div class='b-header-icon'></div>
+        </div>
+    </div>
+    <div class="b-header-title">
+        <div class="b-header-title-text"></div>
+    </div>
+</div>

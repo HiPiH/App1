@@ -1,0 +1,30 @@
+.b-stats-menu-page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 95px 29px 100px 29px;
+}
+
+.b-stats-menu-btnConsultantStat,
+.b-stats-menu-btnShopStat,
+{
+  margin:30px 10px;
+}
+.b-stats-menu-page-inner{
+    width: 80%;
+    .b-stats-menu-page-mixin()
+}
+.b-stats-menu-page-mixin{
+    max-width: @screen-sm-max;
+    margin: auto;
+}
+@media (min-width: @screen-sm-min) {
+    .b-stats-menu-page-inner{
+        .b-stats-menu-page-mixin();
+    }
+}
+@media (orientation: landscape)  {
+    .b-stats-menu-page-inner{
+        .b-stats-menu-page-mixin();
+    }
+}

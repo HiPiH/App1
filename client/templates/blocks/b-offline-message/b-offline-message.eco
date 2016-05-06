@@ -1,0 +1,3 @@
+<div class="b-offline-message" style="display: none">
+    <div class="b-offline-message-text"><%= @.text %></div>
+</div>

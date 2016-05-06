@@ -1,0 +1,11 @@
+<div class="b-checkin-page">
+    <div class="b-checkin-page-selector"></div>
+    <div class="b-checkin-page-form">
+        <div class="b-checkin-page-type-label"></div>
+        <div class="b-checkin-page-address"></div>
+        <div class="b-checkin-page-comment"></div>
+        <div class="b-checkin-page-image"></div>
+        <div class="b-checkin-page-btn-add-photo"></div>
+        <div class="b-checkin-page-send"></div>
+    </div>
+</div>

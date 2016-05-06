@@ -1,0 +1,6 @@
+<div class="b-app">
+    <div class="b-app-ios-header"></div>
+    <div class="b-app-header"></div>
+    <div class="b-app-search-list"></div>
+    <div class="b-main"></div>
+</div>

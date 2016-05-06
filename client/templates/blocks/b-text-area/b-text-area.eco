@@ -1,0 +1,2 @@
+<textarea class="textarea-standart" placeholder="<%= @.placeholder %>"
+       value="<%= @.value %>" maxlength="<%= @.maxlength %>"></textarea>

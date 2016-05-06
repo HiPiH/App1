@@ -1,0 +1,11 @@
+<div class="b-consultant-stat group">
+
+    <div class="b-consultant-stat-name"></div>
+
+    <div class="b-consultant-stat-state-container">
+        <div class="b-consultant-stat-state b-consultant-stat-state-report"></div>
+        <div class="b-consultant-stat-state b-consultant-stat-state-checkout"></div>
+        <div class="b-consultant-stat-state b-consultant-stat-state-checkin"></div>
+    </div>
+
+</div>

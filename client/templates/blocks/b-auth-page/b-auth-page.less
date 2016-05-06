@@ -1,0 +1,59 @@
+.b-auth {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.b-auth-form-wrapper {
+  top: 94px;
+  width: 100%;
+  position: absolute;
+}
+
+.b-auth-form {
+  width: 80%;
+  margin: auto;
+}
+
+.b-auth-item {
+  margin: 32px 10px 10px;
+  input{
+    border-color: @borderColorBlur;
+    &:focus{
+      box-shadow: none;
+      border-color: @borderColorFocus;
+    }
+  }
+}
+.b-auth-sign-in {
+  margin-top: 47px;
+}
+.b-registration-logo-name {
+  position: absolute;
+  top: 33px;
+  width: 100%;
+  height: 50px;
+}
+
+.b-auth-error {
+  margin: 0px 0px 0px 10px;
+  font-size: 14px;
+  color: @color-red;
+}
+.b-auth-form-mixin{
+    max-width: @screen-sm-max;
+    margin: auto;
+}
+@media (min-width: @screen-sm-min) {
+    .b-auth-form{
+        .b-auth-form-mixin();
+    }
+}
+
+@media (orientation: landscape)  {
+    .b-auth-form{
+        .b-auth-form-mixin();
+    }
+}

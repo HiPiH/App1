@@ -1,0 +1,6 @@
+<div class="b-list-search-shop">
+    <div class="b-list-search-shop-list"></div>
+    <div class="b-list-search-shop-placeholder">
+        <span class="b-list-search-shop-placeholder-message"></span>
+    </div>
+</div>

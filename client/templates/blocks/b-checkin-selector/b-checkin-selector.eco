@@ -1,0 +1,6 @@
+<div class="b-checkin-selector">
+    <div class="b-checkin-selector-item b-checkin-selector-item-standart"></div>
+    <div class="b-checkin-selector-item b-checkin-selector-item-client"></div>
+    <div class="b-checkin-selector-item b-checkin-selector-item-spa"></div>
+    <div class="b-checkin-selector-item b-checkin-selector-item-rp"></div>
+</div>
